@@ -31,3 +31,7 @@ codigo_fuente\compilar.bat
 ```
 
 Genera `Optimizalis.exe` en la carpeta principal.
+
+## Licencia
+
+[MIT](LICENSE)
