@@ -1,0 +1,46 @@
+Optimizalis 2.0 - Optimizador de espacio en disco
+==================================================
+
+CÓMO SE USA
+  Doble clic en Optimizalis.exe. Se abre directamente la aplicación.
+  Recomendado: "Elevar permisos" (abajo a la izquierda o en Ajustes) para poder
+  limpiar también Windows Update, el Temp de Windows y el registro del sistema.
+
+PANTALLAS
+  Inicio               Estado del disco, espacio recuperable, limpieza segura en
+                       un clic y estadísticas de todo lo liberado.
+  Resultados           Cada categoría en su tarjeta (temporales, cachés de
+                       navegadores, aplicaciones y desarrollo, Windows Update,
+                       volcados, miniaturas, Windows.old, papelera, proyectos,
+                       archivos grandes, duplicados, descargas y restos).
+                       Verde = seguro · Amarillo = revisar · Rojo = personal.
+  Detalle              Lista de elementos con filtro, orden por tamaño o nombre,
+                       selección con clic (Mayús+clic para rangos, Ctrl+A todo),
+                       botón para abrir la ubicación y doble clic para verla.
+  Restos de programas  Búsqueda exhaustiva por nombre en todas las unidades y en el
+                       registro (configuración, desinstalación, inicio automático).
+                       Si el programa sigue instalado ofrece abrir su desinstalador
+                       oficial. Después puedes "Verificar de nuevo" que no quede nada.
+  Protección           Qué está bloqueado y por qué.
+  Historial            Todo lo eliminado, con el total liberado.
+  Ajustes              Umbrales del análisis, color de acento, animaciones y permisos.
+
+SEGURIDAD
+  - NUNCA se borran vídeos, audios ni fotos (mp4, mov, mkv, avi, mp3, wav, flac,
+    jpg, heic, raw, tiff, psd...): ni sueltos, ni dentro de carpetas, ni en la
+    papelera. Si una carpeta los contiene, se borra lo demás y ellos se quedan.
+  - Antes de borrar, el cuadro de confirmación muestra cada origen (categoría),
+    por qué se propone, y la lista completa de elementos con su ubicación y qué
+    es. Se puede desplazar para revisarlo todo y abrir la ubicación de cada uno.
+  - Lo esencial (Windows, arranque, perfiles, carpetas principales, claves de
+    Microsoft...) aparece con candado y no se puede seleccionar.
+  - Antes de borrar cada elemento se vuelve a comprobar la protección.
+  - Para borrar hay que escribir ELIMINAR. El borrado es PERMANENTE (no pasa por la
+    Papelera).
+  - Cada clave del registro se exporta antes a copias_registro\ (.reg): doble clic
+    en el .reg para restaurarla.
+  - Todo lo eliminado queda anotado en registro_eliminaciones.txt.
+  - Los archivos en uso se programan para borrarse al reiniciar (como administrador).
+
+RECOMPILAR
+  codigo_fuente\compilar.bat (requiere MinGW-w64: g++ y windres).

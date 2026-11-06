@@ -1,0 +1,8 @@
+# Binario compilado (se publica en Releases)
+*.exe
+codigo_fuente/obj/
+
+# Datos locales del usuario
+registro_eliminaciones.txt
+ajustes.ini
+copias_registro/
